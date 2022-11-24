@@ -21,3 +21,5 @@ def addexpense():
         
         ibm_db.bind_param(prep_stmt, 1, date)
         ibm_db.bind_param(prep_stmt, 2, expensename)
+        
+        
